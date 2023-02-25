@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap&#39');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+} 
+
+
+ .signup-page
+{
+    background-color: rgb(202, 175, 175);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signup-container
+{
+
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);  
+     background-color: rgb(226, 165, 165);
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.192); 
+    margin-top: 20px; 
+}
+.signup-container form{
+    margin-top: 40px;
+}
+.signup-container form input{
+    display: block;
+    width: 70%;
+    height: 40px;
+    margin: 10px auto;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.signup-container form input:focus{
+    outline: none;
+}
+.signup-container a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    margin: 20px;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.or hr{
+    width: 40%;
+}
+.or h4{
+    margin: 0px 10px;
+}
+
+.signup-container h3{
+    text-align: center;
+    margin: 15px auto;
+}
+.signup-container button{
+    display: block;
+    width: 40%;
+    height: 45px;
+    margin: auto;
+}  
+
+
+
+/* .input-data .underline{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+}
+.input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #4158d0;
+    transform: scaleX(0);
+    transform-origin: center;
+}
+
+.input-data {
+    height: 40px;
+    width: 200px;
+    position: relative;
+}
+.input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid #ccc;
+}
+
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    bottom: 15px;
+}
+
+.input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #666;
+    transition: all 0.3s ease;
+} */
+
